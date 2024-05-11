@@ -45,11 +45,11 @@ const App = () => (
         Intel, Nvedia, Qualcomm etc. Learn directly from professionals envolved
         in product development
       </p>
-      <div className="cardsContainer">
+      <ul className="cardsContainer">
         {cardsList.map(eachCard => {
           return <CardList cardDetails={eachCard} key={eachCard.id} />
         })}
-      </div>
+      </ul>
     </div>
   </div>
 )

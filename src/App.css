@@ -38,4 +38,5 @@ body {
   flex-grow: 1;
   flex-wrap: wrap;
   padding: 50px;
+  list-style: none;
 }
